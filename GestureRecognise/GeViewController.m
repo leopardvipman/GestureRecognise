@@ -34,7 +34,7 @@
     //[self.view removeGestureRecognizer:recognizer];
 }
 -(void)rightswipe:(UISwipeGestureRecognizer*)recognizer{
-    UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"hello" message:@"message" delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"otherbutton", nil];
+    UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"hello" message:@"message789" delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"otherbutton", nil];
     [alert show];
 }
 
