@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GeViewController : UIViewController
+@interface GeViewController : UIViewController<UIActionSheetDelegate>{
+
+    UIActionSheet*sheet;
+}
 
 @end
